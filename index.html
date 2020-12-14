@@ -38,7 +38,7 @@
             </div>
             <div class="space">    
             </div>
-            <div id="burger" class="burger" onclick="document.querySelector('ul').classList.toggle('active');">
+            <div id="burger" class="burger">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
@@ -197,7 +197,22 @@
           </a>
           
     </div>
-
+    <script>
+        window.addEventListener('click',function(event){
+            var bur=document.getElementById("burger"),
+                menu=document.querySelector('ul'),
+                lin=document.getElementsByClassName("line");
+                if(event.target==bur){
+                    menu.classList.toggle("active");
+                }
+                else if(event.target==lin){
+                    menu.classList.toggle("active");
+                }
+                else{
+                    menu.classList.remove("active");
+                }
+        });
+    </script>
 
 </body>
 </html>
