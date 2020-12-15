@@ -90,6 +90,7 @@ body{
     background-color:#018392;
     text-align: center;
     margin: 8px;
+    z-index: 5; 	
 }
 .burger{
     vertical-align: middle;
@@ -98,7 +99,7 @@ body{
     transform: scale(.75);
     cursor: pointer;
     width: 60px;
-    z-index: 2;
+    z-index: 6;
     background: white;
     margin: 0 8px 8px 8px;
 }
