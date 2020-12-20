@@ -38,11 +38,11 @@
             </div>
             <div class="space">    
             </div>
-            <div id="burger" class="burger">
+            <button id="burger" class="burger" style="border:none;">
                 <div class="line" id="l1"></div>
                 <div class="line" id="l2"></div>
                 <div class="line" id="l3"></div>
-            </div>
+            </button>
             <nav>
                 <ul>
                         <li><a href="#">HOME</a></li>
@@ -197,7 +197,7 @@
           </a>
           
     </div>
-   <script>
+    <script>
         window.addEventListener('click',function(event){
             var bur=document.getElementById("burger");
             var menu=document.querySelector('ul');
@@ -207,16 +207,12 @@
                 if((event.target==bur)||(event.target==l1)||(event.target==l2)||(event.target==l3)){
                     menu.classList.toggle("active");
                 }
-                else if(event.target==bur){
-                    menu.classList.toggle("active");
-                }
                 else {
                     menu.classList.remove("active");
                 }
-               
         });
-    </script>
 
+    </script>
 
 </body>
 </html>
