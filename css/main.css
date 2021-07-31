@@ -184,10 +184,12 @@ ul li a:hover{
     left: 0;
     animation: transy 1.9s ease;
 }
+
 .slidepic {
     object-fit: contain;
     overflow-wrap: inherit;
     animation: transx- 1.25s ease-out;
+
 }
 .slidetext{
     display: block;
@@ -195,10 +197,11 @@ ul li a:hover{
     padding: 0;
     height: auto;
 }
+/*
 .slidepic img{
     transform: scale(50%);
     ;
-}
+}*/
 .cta {
     padding: 0;
     margin-top: 30px;
