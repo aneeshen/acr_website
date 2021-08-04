@@ -197,11 +197,11 @@ ul li a:hover{
     padding: 0;
     height: auto;
 }
-/*
+
 .slidepic img{
-    transform: scale(50%);
+    transform: scale(100%);
     ;
-}*/
+}
 .cta {
     padding: 0;
     margin-top: 30px;
